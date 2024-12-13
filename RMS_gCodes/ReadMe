@@ -1,0 +1,24 @@
+This folder contains the G-code files used in the Proof of Concept Reconfigurable Manufacturing System (RMS) for producing name tags A and B. These files are essential for running the bending and engraving processes within the RMS.
+
+Folder Contents
+Bend G-code
+- Files used for performing bending operations to shape the name tags.
+
+Engrave Text G-code
+- Files for engraving custom text onto the name tags (variants A and B).
+
+Engrave Logo G-code
+- Files designed to engrave logos onto the name tags, enabling personalised or branded designs.
+
+Purpose
+This folder supports the flexible and modular operation of the RMS by providing the necessary G-code files to execute the manufacturing processes for name tag production.
+
+Usage
+Select the required G-code file:
+- Choose the appropriate G-code file for the operation you wish to perform (bending, text engraving, or logo engraving).
+
+Load the G-code into your machine:
+- Import the selected G-code into the PLC machine, laser engraver, or other relevant equipment.
+
+Run the manufacturing process:
+- Ensure your machine settings align with the material and process requirements, then execute the loaded G-code.
