@@ -1,5 +1,6 @@
 G90 (Use absolute positioning)
 M3 (Enable laser)
+G0 X-30 Y-22.5
 G1 Q1=33 F10000
 G1 X-30.0 Y-22.5 F6000
 G1 Q1=29 F10000
