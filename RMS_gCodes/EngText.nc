@@ -1,6 +1,5 @@
 G90  (Use absolute positioning)
 M5  (Disable laser)
-G0 Q1=0  (Verify that laser i OFF)
 G0 X36.9609 Y-10.0000  (Move to start of contour, flipped X)
 M3  (Enable laser)
 G1 X36.9609 Y-10.0000 Q1=80 F6000
@@ -42,7 +41,6 @@ G1 X35.6826 Y-10.0000 Q1=80 F6000
 G1 X35.6826 Y-10.0000 Q1=80 F6000
 G1 X36.9609 Y-10.0000 Q1=80 F6000
 M5  (Disable laser)
-G0 Q1=0  (Verify that laser i OFF)
 G0 X20.6777 Y-10.8955  (Move to start of contour, flipped X)
 M3  (Enable laser)
 G1 X20.6777 Y-10.8955 Q1=80 F6000
@@ -254,7 +252,6 @@ G1 X20.7803 Y-13.1924 Q1=80 F6000
 G1 X20.7803 Y-13.1924 Q1=80 F6000
 G1 X20.7803 Y-13.6436 Q1=80 F6000
 M5  (Disable laser)
-G0 Q1=0  (Verify that laser i OFF)
 G0 X12.9189 Y-10.0000  (Move to start of contour, flipped X)
 M3  (Enable laser)
 G1 X12.9189 Y-10.0000 Q1=80 F6000
@@ -370,7 +367,6 @@ G1 X16.7211 Y-14.6534 Q1=80 F6000
 G1 X16.7867 Y-14.1691 Q1=80 F6000
 G1 X16.8086 Y-13.6230 Q1=80 F6000
 M5  (Disable laser)
-G0 Q1=0  (Verify that laser i OFF)
 G0 X10.3350 Y-12.1670  (Move to start of contour, flipped X)
 M3  (Enable laser)
 G1 X10.3350 Y-12.1670 Q1=80 F6000
@@ -566,7 +562,6 @@ G1 X10.3350 Y-12.1670 Q1=80 F6000
 G1 X10.3350 Y-12.1670 Q1=80 F6000
 G1 X10.3350 Y-12.1670 Q1=80 F6000
 M5  (Disable laser)
-G0 Q1=0  (Verify that laser i OFF)
 G0 X0.6689 Y-10.0000  (Move to start of contour, flipped X)
 M3  (Enable laser)
 G1 X0.6689 Y-10.0000 Q1=80 F6000
